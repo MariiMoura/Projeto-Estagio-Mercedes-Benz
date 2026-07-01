@@ -178,6 +178,6 @@ Este script passou por uma rodada de correções em relação à versão de prot
 
 ## Autor
 
-Autor:  e João Mateus E. B. da Silva
+Autor: Mariane S. Moura e João Mateus E. B. da Silva
 
 Projeto desenvolvido e idealizado durante o estágio na Mercedes.
