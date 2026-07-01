@@ -355,8 +355,9 @@ def run_process(app):
         # INICIALIZAÇÃO: leitura do Excel e conexão SAP
         # ----------------------------------------------------------
         try:
-            arquivo_entrada = r"C:\Users\MDEMOUR\Downloads\260504_Análise PRs Fórum 2.xlsx"
-            arquivo_saida   = r"C:\Users\MDEMOUR\Downloads\260504_saida.xlsx"
+            arquivo_entrada = r"C:\Users\MDEMOUR\Downloads\Análise PRs Fórum 2.xlsx"  #leitura do excel --> mudar sempre
+        
+            arquivo_saida   = r"C:\Users\MDEMOUR\Downloads\Análise PRs Fórum 2_saida.xlsx" #mudar nome da saída 
 
             print("Lendo Excel...")
             df = pd.read_excel(arquivo_entrada)
@@ -483,7 +484,7 @@ def run_process(app):
 # =========================================================
 # ENTRADA DO PROGRAMA
 # =========================================================
-arquivo_entrada = r"C:\Users\MDEMOUR\Downloads\260504_Análise PRs Fórum 2.xlsx"
+arquivo_entrada = r"C:\Users\MDEMOUR\Downloads\Análise PRs Fórum 2.xlsx"
 
 df_temp = pd.read_excel(arquivo_entrada)
 total = len(df_temp)
